@@ -4,6 +4,8 @@ import Hero from "../components/Customer/Hero";
 
 import UserList from "../components/Customer/UserList";
 import Pagination from "../components/Customer/Pagination";
+import AnalyticsCard from "../components/Customer/AnalyticsCard";
+import TopMenu from "../components/Customer/TopMenu";
 
 export default function Customer() {
 	return (
@@ -21,13 +23,12 @@ export default function Customer() {
 					<Pagination />
 				</div>
 
-				<div className="w-1/5">
-					<div className="bg-blue-500 p-4 h-1/3 text-white rounded-xl flex flex-col justify-between">
-						<h1 className="text-xl">See analytics of the Customer Clearly</h1>
-						<button className="flex items-center gap-3 py-3 px-4 bg-opacity-30 rounded-xl bg-white w-fit">
-							See Analytics
-						</button>
-					</div>
+				<div className="w-1/5 flex flex-col gap-6">
+					{/* analytics cacrd */}
+					<AnalyticsCard />
+
+					{/* top menu */}
+					<TopMenu />
 				</div>
 			</main>
 		</div>
