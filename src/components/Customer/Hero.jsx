@@ -19,7 +19,7 @@ export default function Hero() {
 
 				{/* interactivity */}
 				<div className="flex text-base mt-2 gap-4">
-					<button className="flex items-center gap-3 p-3 px-4 bg-opacity-30 rounded-xl bg-white">
+					<button className="flex items-center gap-3 px-4 bg-opacity-30 rounded-xl bg-white">
 						<PiPlusBold />
 						Add New Customer
 					</button>
@@ -27,7 +27,7 @@ export default function Hero() {
 					<form className="bg-white rounded-xl flex items-center justify-end flex-grow p-1 gap-1">
 						<input
 							type="text"
-							className="w-full px-4 h-full p-3 rounded-lg placeholder-gray-300"
+							className="w-full px-4 h-full rounded-lg placeholder-gray-300"
 							placeholder="O        Search Customer"
 						/>
 						<button className=" bg-blue-500 px-4 h-full  rounded-lg">
@@ -35,12 +35,12 @@ export default function Hero() {
 						</button>
 					</form>
 
-					<button className="flex items-center gap-3 p-3 px-4 bg-opacity-30 rounded-xl bg-white">
+					<button className="flex items-center gap-3 px-4 bg-opacity-30 rounded-xl bg-white">
 						<PiFunnel className="text-2xl" />
 						Filter
 					</button>
 
-					<button className="flex items-center gap-3 p-3 px-4 bg-opacity-30 rounded-xl bg-white">
+					<button className="flex items-center gap-3 px-4 bg-opacity-30 rounded-xl bg-white">
 						<PiArrowsClockwise className="text-2xl" />
 						Refresh
 					</button>
