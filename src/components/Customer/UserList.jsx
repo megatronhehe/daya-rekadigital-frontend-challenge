@@ -74,7 +74,7 @@ export default function UserList() {
 
 	return (
 		<>
-			<div className="grid grid-cols-5 px-4 py-2 gap-4 bg-gray-100 text-gray-400">
+			<div className="sm:grid hidden grid-cols-5 px-4 py-2 gap-4 bg-gray-100 text-gray-400">
 				<div className="flex justify-between items-center">
 					Customer Name <PiCaretUpDown />
 				</div>
@@ -88,6 +88,13 @@ export default function UserList() {
 					Total Transaction <PiCaretUpDown />
 				</div>
 				<div>Action</div>
+			</div>
+
+			<div className="px-4 py-2  bg-gray-100 text-gray-400 flex justify-between items-center">
+				<div className="flex justify-between items-center">
+					Sort user table by :
+				</div>
+				<p>Username</p>
 			</div>
 
 			<ul>

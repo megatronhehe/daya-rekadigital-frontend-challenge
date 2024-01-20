@@ -10,8 +10,8 @@ export default function TopMenu() {
 
 			<p>10 - 12 Agustus 2023</p>
 
-			<ul>
-				<li className="relative bg-white p-4 mb-2 rounded-xl">
+			<ul className="flex flex-col gap-4">
+				<li className="relative bg-white p-4  rounded-xl">
 					<h3 className="text-black font-semibold text-xl">
 						Nasi Goreng Jamur Special Resto Pak Min
 					</h3>
@@ -20,6 +20,7 @@ export default function TopMenu() {
 					</div>
 					<div className="absolute right-2.5 -top-3 w-7 h-7 rotate-12 bg-red-700 flex items-center justify-center text-white"></div>
 				</li>
+
 				<li className="px-3 py-2">2. Tongseng Sapi Gurih</li>
 				<li className="px-3 py-2">3. Nasi Gudeg Telur Ceker</li>
 				<li className="px-3 py-2">4. Nasi Ayam Serundeng</li>

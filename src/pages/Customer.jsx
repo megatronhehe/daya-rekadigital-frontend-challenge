@@ -11,9 +11,9 @@ export default function Customer() {
 	return (
 		<div className="p-6 w-full">
 			<Header />
-			<main className="mt-6 flex w-full gap-6">
+			<main className="mt-6 flex flex-col sm:flex-row w-full gap-6">
 				{/* hero */}
-				<div className="w-4/5 flex flex-col gap-4">
+				<div className="sm:w-4/5 flex flex-col gap-4">
 					<Hero />
 
 					{/* user list */}
@@ -23,7 +23,7 @@ export default function Customer() {
 					<Pagination />
 				</div>
 
-				<div className="w-1/5 flex flex-col gap-6">
+				<div className="sm:w-1/5 flex flex-col gap-6">
 					{/* analytics cacrd */}
 					<AnalyticsCard />
 

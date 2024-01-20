@@ -8,7 +8,7 @@ export default function Header() {
 				You can manage and organize your customer and other things here
 			</p>
 
-			<nav className="self-end -mt-2 w-1/2 text-gray-400">
+			<nav className="self-end mt-4 sm:-mt-2 sm:w-1/2 w-full text-gray-400">
 				<ul className="flex w-full font-medium">
 					<li className="w-1/3 border-blue-500 text-blue-500 pb-2 text-center border-b-2">
 						<a href="">Customer</a>

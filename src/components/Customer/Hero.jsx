@@ -4,7 +4,7 @@ import {
 	PiFunnel,
 	PiArrowsClockwise,
 	PiPrinter,
-	PiCircle,
+	PiMagnifyingGlass,
 } from "react-icons/pi";
 
 export default function Hero() {
@@ -14,17 +14,19 @@ export default function Hero() {
 				{/* text and description */}
 				<h2 className="text-xl">Customer</h2>
 
-				<p>On this menu you will be able to create, edit, and also delete</p>
-				<p>the customer. Also you can manage it easily.</p>
+				<p>
+					On this menu you will be able to create, edit, and also delete the
+					customer. Also you can manage it easily.
+				</p>
 
 				{/* interactivity */}
-				<div className="flex text-base mt-2 gap-4">
+				<div className="flex text-base mt-2 sm:gap-4 gap-2 overflow-auto">
 					<button className="flex items-center gap-3 px-4 bg-opacity-30 rounded-xl bg-white">
 						<PiPlusBold />
-						Add New Customer
+						<p className="sm:block hidden">Add New Customer</p>
 					</button>
 
-					<form className="bg-white rounded-xl flex items-center justify-end flex-grow p-1 gap-1">
+					<form className="bg-white sm:flex hidden rounded-xl  items-center justify-end flex-grow p-1 gap-1">
 						<input
 							type="text"
 							className="w-full px-4 h-full rounded-lg placeholder-gray-300"
@@ -36,13 +38,17 @@ export default function Hero() {
 					</form>
 
 					<button className="flex items-center gap-3 px-4 bg-opacity-30 rounded-xl bg-white">
+						<PiMagnifyingGlass />
+					</button>
+
+					<button className="flex items-center gap-3 px-4 bg-opacity-30 rounded-xl bg-white">
 						<PiFunnel className="text-2xl" />
-						Filter
+						<p className="sm:block hidden">Filter</p>
 					</button>
 
 					<button className="flex items-center gap-3 px-4 bg-opacity-30 rounded-xl bg-white">
 						<PiArrowsClockwise className="text-2xl" />
-						Refresh
+						<p className="sm:block hidden">Refresh</p>
 					</button>
 
 					<button className="gap-3 p-4 text-xl bg-opacity-30 rounded-xl aspect-square bg-white">
