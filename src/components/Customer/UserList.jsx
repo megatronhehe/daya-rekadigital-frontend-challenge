@@ -42,17 +42,35 @@ export default function UserList() {
 			totalTransaction: 256000,
 		},
 		{
+			name: "Alfredo Vetrovs",
+			level: "Juragan",
+			favMenu: "Dark & Stormy",
+			totalTransaction: 590080,
+		},
+		{
 			name: "Cristofer Vetrovs",
 			level: "Konglomerat",
 			favMenu: "Shaking Beef Tri-Tip",
 			totalTransaction: 782600,
 		},
+		{
+			name: "Calvin Steward",
+			level: "Konglomerat",
+			favMenu: "BBQ Rib Dinner",
+			totalTransaction: 782600,
+		},
+		{
+			name: "Calvin Steward",
+			level: "Konglomerat",
+			favMenu: "BBQ Rib Dinner",
+			totalTransaction: 782600,
+		},
 	];
 
 	return (
-		<ul className="mt-4">
-			{users.map((user) => {
-				return <UserItem user={user} />;
+		<ul>
+			{users.map((user, i) => {
+				return <UserItem key={i} user={user} />;
 			})}
 		</ul>
 	);
