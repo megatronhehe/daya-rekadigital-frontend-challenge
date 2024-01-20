@@ -33,7 +33,7 @@ export default function Sidebar() {
 
 	return (
 		<nav className="flex flex-col font-medium text-gray-400 border-r justify-between h-screen">
-			<div className=" p-6 ">
+			<div className="p-6">
 				<h1 className="text-4xl text-blue-500 tracking-tighter flex items-center gap-2">
 					<div className="w-6 h-6 mt-3 bg-blue-500"></div>
 					square
@@ -60,6 +60,7 @@ export default function Sidebar() {
 				</div>
 			</div>
 
+			{/* bottom profile */}
 			<BottomProfile />
 		</nav>
 	);
