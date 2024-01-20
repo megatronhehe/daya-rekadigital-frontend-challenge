@@ -27,22 +27,6 @@ export default function Navbar() {
 		}
 	}, [windowSize]);
 
-	const menuItems = [
-		{ name: "Dashboard", icon: <PiSquaresFour /> },
-		{ name: "Stock", icon: <PiBatteryFull /> },
-		{ name: "Customer", icon: <PiUsers /> },
-		{ name: "Restaurant", icon: <PiCallBell /> },
-		{ name: "Design", icon: <PiPaintBrush /> },
-		{ name: "Report", icon: <PiClipboard /> },
-		{ name: "Role & Admin", icon: <PiUserSquare /> },
-		{ name: "Settings", icon: <PiSliders /> },
-	];
-
-	const integrationItems = [
-		{ name: "Stock", icon: <PiShoppingCart /> },
-		{ name: "Supply", icon: <PiTruck /> },
-	];
-
 	return (
 		<>
 			<button
