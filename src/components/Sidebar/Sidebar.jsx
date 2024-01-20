@@ -32,7 +32,7 @@ export default function Sidebar() {
 	];
 
 	return (
-		<nav className="flex-col sm:flex hidden font-medium text-gray-400 border-r justify-between min-h-screen">
+		<nav className="flex-col shadow-md sm:shadow-none sm:static fixed z-30 top-0 left-0 bg-white flex  font-medium text-gray-400 sm:border-r justify-between min-h-screen">
 			<div className="p-6">
 				<h1 className="text-4xl text-blue-500 tracking-tighter flex items-center gap-2">
 					<div className="w-6 h-6 mt-3 bg-blue-500"></div>
