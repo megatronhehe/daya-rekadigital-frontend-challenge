@@ -3,7 +3,7 @@ import Customer from "./pages/Customer";
 
 function App() {
 	return (
-		<div className="flex ">
+		<div className="flex font-quicksand">
 			<Sidebar />
 			<Customer />
 		</div>
