@@ -16,7 +16,7 @@ export default function UserItem({ user }) {
 	return (
 		<>
 			{/* bentuk list item */}
-			<li key={user.name} className="px-4 sm:grid hidden  grid-cols-5 py-2">
+			<li key={user.name} className="px-4 xl:grid hidden  grid-cols-5 py-2">
 				<div className="flex items-center">{user.name}</div>
 				<div
 					className={`flex items-center w-fit px-4 text-sm font-medium ${levelStyle}`}
@@ -44,7 +44,7 @@ export default function UserItem({ user }) {
 			{/* bentuk card */}
 			<li
 				key={user.name}
-				className="px-4 sm:hidden py-2 w-full justify-between border-b mb-4"
+				className="px-4 xl:hidden py-2 w-full justify-between border-b mb-4"
 			>
 				<div className="flex relative flex-col">
 					<div className="flex items-center font-medium">{user.name}</div>

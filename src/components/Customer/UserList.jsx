@@ -90,7 +90,7 @@ export default function UserList() {
 				<div>Action</div>
 			</div>
 
-			<div className="px-4 py-2  bg-gray-100 text-gray-400 flex justify-between items-center">
+			<div className="px-4 py-2 sm:hidden bg-gray-100 text-gray-400 flex justify-between items-center">
 				<div className="flex justify-between items-center">
 					Sort user table by :
 				</div>
